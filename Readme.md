@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomFieldListService.cs](./CS/CustomFieldListService.cs) (VB: [CustomFieldListService.vb](./VB/CustomFieldListService.vb))
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+<!-- default file list end -->
 # How to provide custom icons for the Field List in the End-User Designer
 
 

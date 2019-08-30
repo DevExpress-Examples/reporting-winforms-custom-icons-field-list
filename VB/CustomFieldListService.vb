@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System.Drawing
+﻿Imports System.Drawing
 Imports System.ComponentModel
 Imports DevExpress.Utils
 Imports DevExpress.XtraReports.UserDesigner
@@ -8,6 +7,7 @@ Namespace FieldListCustomIcons
 
 	Friend Class CustomColumnImageProvider
 		Inherits DevExpress.Data.Browsing.Design.ColumnImageProvider
+
 		Private categoryNameIndex As Integer
 
 		Public Overrides Function GetColumnImageIndex(ByVal [property] As PropertyDescriptor, ByVal specifics As DevExpress.Data.Browsing.Design.TypeSpecifics) As Integer

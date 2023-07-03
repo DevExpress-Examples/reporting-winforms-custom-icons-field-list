@@ -161,7 +161,7 @@
 			' 
 			' xrTable2
 			' 
-			Me.xrTable2.Font = New System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold)
+			Me.xrTable2.Font = New DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.xrTable2.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
 			Me.xrTable2.Name = "xrTable2"
 			Me.xrTable2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F)

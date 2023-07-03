@@ -19,7 +19,7 @@ Namespace FieldListCustomIcons
 		End Function
 		Public Overrides Function CreateSvgImageCollection() As SvgImageCollection
 			Dim result As SvgImageCollection = MyBase.CreateSvgImageCollection()
-			Dim image As New SvgImage(GetType(CustomColumnImageProvider), "FieldListCustomIcons.StarIcon.svg")
+			Dim image = SvgImage.FromResources("FieldListCustomIcons.StarIcon.svg", GetType(CustomColumnImageProvider).Assembly)
 
 			result.Add(image)
 			categoryNameIndex = result.Count - 1

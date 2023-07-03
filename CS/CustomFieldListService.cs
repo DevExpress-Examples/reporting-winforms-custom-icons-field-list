@@ -1,7 +1,5 @@
-using System.Drawing;
 using System.ComponentModel;
 using DevExpress.Utils;
-using DevExpress.XtraReports.UserDesigner;
 using DevExpress.Utils.Svg;
 
 namespace FieldListCustomIcons {
